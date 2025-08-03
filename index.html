@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Final Project CS 1030</title>
-</head> 
-<body>
-    <h1>Nutrifactor</h1>
-    <p>Nutrifactor is an app for creating a healthier you. </p>
-    <p>It includes a bar code scanner and database for tracking calories and Macros as well as recipes tailored to your individual needs</p>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitTrack - Calorie & Macro Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-green-400 to-blue-500 text-white px-6 py-20 text-center">
+    <h1 class="text-4xl font-bold mb-4">Track Calories & Macros Effortlessly</h1>
+    <p class="text-lg mb-6">Smarter nutrition, simplified. Stay on top of your health goals with FitTrack.</p>
+    <a href="#" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">Download the App</a>
+  </section>
+
+  <!-- Features -->
+  <section class="px-6 py-16 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Why Choose FitTrack?</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/fitness.png" alt="Macros" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Macro Breakdown</h3>
+        <p>Detailed daily tracking of protein, carbs, and fats tailored to your goals.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/apple.png" alt="Calories" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Calorie Logging</h3>
+        <p>Easy food logging with a growing database and barcode scanner.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/pie-chart.png" alt="Reports" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Insightful Reports</h3>
+        <p>Visualize your intake and trends with clean, simple charts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Preview -->
+  <section class="bg-gray-100 py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">See It in Action</h2>
+    <img src="https://via.placeholder.com/600x300" alt="App Preview" class="mx-auto rounded-xl shadow-lg" />
+  </section>
+
+  <!-- Testimonials -->
+  <section class="px-6 py-16 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">What Users Say</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-50 p-6 rounded-xl shadow">
+        <p>"FitTrack changed how I eat! I’ve never felt more in control of my diet."</p>
+        <p class="mt-4 font-semibold">– Alex M.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-xl shadow">
+        <p>"Easy to use and accurate. I hit my fitness goals faster than ever!"</p>
+        <p class="mt-4 font-semibold">– Jordan K.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="bg-blue-600 text-white py-16 text-center px-6">
+    <h2 class="text-3xl font-bold mb-4">Start for Free</h2>
+    <p class="mb-8 text-lg">Basic features are free. Unlock premium for just $4.99/month.</p>
+    <a href="#" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">Try Premium</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 FitTrack. All rights reserved.</p>
+    <div class="mt-2 space-x-4">
+      <a href="#" class="hover:underline">Privacy</a>
+      <a href="#" class="hover:underline">Terms</a>
+      <a href="#" class="hover:underline">Contact</a>
+    </div>
+  </footer>
+
 </body>
 </html>
